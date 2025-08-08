@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Header } from "./Header";
 
 export const HomePage = (props) => {
-  const { navigateToCategory, navigateToAIAssistant } = props; // Ambil fungsi navigasi AI
+  const { navigateToCategory, navigateToAIAssistant } = props;
 
   useEffect(() => {
     if (window.lucide) {
@@ -47,7 +47,6 @@ export const HomePage = (props) => {
                 <i data-lucide="search" className="w-5 h-5 mr-2"></i>Cari Obat
                 Sekarang
               </a>
-              {/* Tombol ini sekarang mengarah ke Asisten AI */}
               <button
                 onClick={navigateToAIAssistant}
                 className="w-full sm:w-auto flex items-center justify-center bg-white text-slate-700 font-semibold px-8 py-4 rounded-xl hover:bg-slate-100 transition-all border border-slate-300"
@@ -75,7 +74,6 @@ export const HomePage = (props) => {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
-              {/* Kartu ini sekarang bisa diklik */}
               <div
                 onClick={navigateToAIAssistant}
                 className="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
@@ -133,7 +131,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="batuk.png"
+                  src="/batuk.png"
                   alt="Batuk & Flu"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -146,7 +144,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="vitamin.jpeg"
+                  src="/vitamin.jpeg"
                   alt="Vitamin"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -159,7 +157,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="p3k.png"
+                  src="/p3k.png"
                   alt="P3K"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -172,7 +170,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="obat-ibu-anak.png"
+                  src="/obat-ibu-anak.png"
                   alt="Ibu & Anak"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -185,7 +183,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="perawatan-diri.jpg"
+                  src="/perawatan-diri.jpg"
                   alt="Perawatan Diri"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
