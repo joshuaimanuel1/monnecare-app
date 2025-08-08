@@ -1,46 +1,120 @@
-🏥 MonneCare: Apotek Online Cerdas
-Proyek ini adalah sebuah prototipe aplikasi web apotek online modern yang dibangun menggunakan React. MonneCare dirancang untuk memberikan pengalaman pengguna yang intuitif dalam mencari dan membeli produk kesehatan, dilengkapi dengan fitur-fitur cerdas seperti filter gejala dan asisten apoteker berbasis AI.
+````markdown
+# 🏥 MonneCare: Apotek Online Cerdas
 
-🧩 Fitur Utama
-🛍️ Katalog Produk Dinamis: Menampilkan produk berdasarkan 5 kategori utama (Batuk & Flu, Vitamin, P3K, Ibu & Anak, Perawatan Diri).
+**MonneCare** adalah prototipe aplikasi web apotek online modern yang dibangun menggunakan **React.js**, dirancang untuk memberikan pengalaman pengguna yang cepat, intuitif, dan informatif dalam mencari serta membeli produk kesehatan.
 
-🧠 Filter Cerdas: Pengguna dapat menemukan produk yang relevan dengan memilih gejala atau kebutuhan spesifik di setiap halaman kategori.
+Platform ini dilengkapi fitur-fitur cerdas seperti **filter berdasarkan gejala**, **asisten apoteker AI**, dan **keranjang interaktif** — menjadikan belanja kebutuhan kesehatan jauh lebih praktis.
 
-📄 Halaman Detail Produk: Halaman informatif yang menampilkan deskripsi lengkap, aturan pakai, komposisi, dan peringatan untuk setiap produk.
+---
 
-🛒 Keranjang Belanja Fungsional: Pengguna dapat menambah, mengubah kuantitas, dan menghapus produk dari keranjang belanja sidebar yang interaktif.
+## 🧩 Fitur Utama
 
-🔍 Pencarian Produk Global: Fitur pencarian di header untuk menemukan produk dengan cepat dari halaman mana pun.
+### 🛍️ Katalog Produk Dinamis
 
-👤 Sistem Autentikasi: Fungsionalitas dasar untuk mendaftar dan masuk ke akun pengguna.
+Menampilkan berbagai produk kesehatan berdasarkan **5 kategori utama**:
 
-🤖 Asisten Apoteker AI: Sebuah ruang chat yang terintegrasi dengan Google Gemini API, di mana pengguna bisa melakukan konsultasi dan mendapatkan rekomendasi produk secara langsung.
+- Batuk & Flu
+- Vitamin & Suplemen
+- P3K
+- Ibu & Anak
+- Perawatan Diri
 
-🖥️ Teknologi yang Digunakan
-Frontend
-React.js: Library utama untuk membangun antarmuka pengguna yang interaktif dan berbasis komponen.
+### 🧠 Filter Gejala Cerdas
 
-Tailwind CSS: Framework CSS untuk styling yang cepat dan modern.
+Pengguna dapat memfilter produk berdasarkan **gejala atau kebutuhan spesifik**, seperti demam, batuk, kulit kering, dll.
 
-JavaScript (ES6+): Bahasa pemrograman utama yang digunakan.
+### 📄 Halaman Detail Produk Lengkap
 
-Integrasi AI
-Google Gemini API: Digunakan sebagai "otak" dari fitur Asisten Apoteker AI untuk memberikan jawaban yang cerdas dan kontekstual.
+Setiap produk memiliki halaman khusus berisi:
 
-🏁 Cara Menjalankan Proyek
+- Deskripsi
+- Aturan Pakai
+- Komposisi
+- Peringatan Penggunaan
 
-1. Clone Repository (Jika sudah di GitHub)
-   git clone https://github.com/joshuaimanuel1/monnecare-react-app.git
-   cd monnecare-react-app
+### 🛒 Keranjang Belanja Sidebar
 
-2. Instalasi Dependensi
-   Pastikan Anda sudah menginstal Node.js. Buka terminal di dalam folder proyek dan jalankan:
+Keranjang yang mudah diakses dari mana saja:
 
+- Tambah/Hapus produk
+- Ubah kuantitas
+- Checkout langsung dari sidebar
+
+### 🔍 Pencarian Produk Global
+
+Fitur pencarian instan yang bisa digunakan dari **halaman mana pun** untuk mencari nama produk secara cepat.
+
+### 👤 Sistem Autentikasi Pengguna
+
+Fitur login dan register sederhana untuk menyimpan riwayat belanja dan preferensi pengguna.
+
+### 🤖 Asisten Apoteker AI _(beta)_
+
+Chatbot cerdas yang terintegrasi dengan **Google Gemini API**, siap menjawab pertanyaan dan memberikan rekomendasi produk berdasarkan keluhan atau kebutuhan pengguna.
+
+---
+
+## 🖥️ Teknologi yang Digunakan
+
+- **React.js** — Library utama untuk membangun antarmuka interaktif
+- **Tailwind CSS** — Framework styling modern dan efisien
+- **JavaScript (ES6+)** — Bahasa utama pengembangan
+- **Google Gemini API** — Digunakan pada fitur Asisten Apoteker AI untuk analisis dan rekomendasi cerdas
+
+---
+
+## 🏁 Cara Menjalankan Proyek
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/joshuaimanuel1/monnecare-react-app.git
+cd monnecare-react-app
+```
+````
+
+### 2. Instalasi Dependensi
+
+Pastikan sudah menginstal **Node.js** terlebih dahulu. Lalu jalankan:
+
+```bash
 npm install
+```
 
-3. Menjalankan Server Lokal
-   Setelah instalasi selesai, jalankan perintah berikut untuk melihat aplikasi di browser:
+### 3. Menjalankan Aplikasi Lokal
 
+```bash
 npm start
+```
 
-Aplikasi akan otomatis terbuka di http://localhost:3000.
+Aplikasi akan otomatis terbuka di browser pada:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 💡 Catatan Tambahan
+
+Proyek ini masih dalam tahap pengembangan dan merupakan **prototipe**. Fitur-fitur lanjutan seperti pembayaran, integrasi database, dan manajemen stok akan ditambahkan di versi berikutnya.
+
+---
+
+## 📬 Kontribusi & Kontak
+
+Kritik, saran, atau kontribusi sangat diterima!
+
+Hubungi via GitHub: [@joshuaimanuel1](https://github.com/joshuaimanuel1)
+
+---
+
+✨ Terima kasih telah menggunakan MonneCare! ✨
+_Semoga sehat selalu dan belanja obat jadi makin mudah!_
+
+```
+
+---
+
+Kalau kamu juga mau README ini dalam versi **Bahasa Inggris**, atau ditambahkan **screenshot aplikasi**, **badge status build**, atau **fitur CI/CD**, tinggal beri tahu!
+```
