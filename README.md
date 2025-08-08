@@ -4,6 +4,8 @@
 
 Platform ini dilengkapi fitur-fitur cerdas seperti **filter berdasarkan gejala**, **asisten apoteker AI**, dan **keranjang interaktif** — menjadikan belanja kebutuhan kesehatan jauh lebih praktis.
 
+https://joshuaimanuel1.github.io/monnecare-app/
+
 ---
 
 ## 🧩 Fitur Utama
