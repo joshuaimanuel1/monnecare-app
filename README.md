@@ -1,4 +1,3 @@
-````markdown
 # 🏥 MonneCare: Apotek Online Cerdas
 
 **MonneCare** adalah prototipe aplikasi web apotek online modern yang dibangun menggunakan **React.js**, dirancang untuk memberikan pengalaman pengguna yang cepat, intuitif, dan informatif dalam mencari serta membeli produk kesehatan.
@@ -71,6 +70,7 @@ Chatbot cerdas yang terintegrasi dengan **Google Gemini API**, siap menjawab per
 git clone https://github.com/joshuaimanuel1/monnecare-react-app.git
 cd monnecare-react-app
 ```
+
 ````
 
 ### 2. Instalasi Dependensi
@@ -118,3 +118,4 @@ _Semoga sehat selalu dan belanja obat jadi makin mudah!_
 
 Kalau kamu juga mau README ini dalam versi **Bahasa Inggris**, atau ditambahkan **screenshot aplikasi**, **badge status build**, atau **fitur CI/CD**, tinggal beri tahu!
 ```
+````
