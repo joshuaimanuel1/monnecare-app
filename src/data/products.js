@@ -7,7 +7,7 @@ export const productDatabase = {
       id: 1,
       name: "OBH Combi Batuk Berdahak",
       price: "Rp 18.500",
-      image: "/obh-combi.jpeg",
+      image: "obh-combi.jpeg",
       tags: ["batuk berdahak"],
       details: {
         description:
@@ -23,7 +23,7 @@ export const productDatabase = {
       id: 2,
       name: "Vicks Formula 44 DT",
       price: "Rp 21.000",
-      image: "/vicks-f44.jpeg",
+      image: "vicks-f44.jpeg",
       tags: ["batuk kering"],
       details: {
         description:
@@ -40,7 +40,7 @@ export const productDatabase = {
       id: 3,
       name: "Panadol Biru",
       price: "Rp 12.000",
-      image: "/panadol-biru.jpeg",
+      image: "panadol-biru.jpeg",
       tags: ["sakit kepala", "demam"],
       details: {
         description:
@@ -54,7 +54,7 @@ export const productDatabase = {
       id: 4,
       name: "Rhinos SR",
       price: "Rp 75.000",
-      image: "/rhinos-sr.jpeg",
+      image: "rhinos-sr.jpeg",
       tags: ["hidung tersumbat"],
       details: {
         description:
@@ -69,7 +69,7 @@ export const productDatabase = {
       id: 5,
       name: "Strepsils Soothing",
       price: "Rp 19.800",
-      image: "/strepsils.jpeg",
+      image: "strepsils.jpeg",
       tags: ["nyeri tenggorokan"],
       details: {
         description:
@@ -83,7 +83,7 @@ export const productDatabase = {
       id: 6,
       name: "Bodrex Flu & Batuk",
       price: "Rp 3.500",
-      image: "/bodrex-flu-batuk.jpeg",
+      image: "bodrex-flu-batuk.jpeg",
       tags: ["batuk kering", "demam", "sakit kepala", "hidung tersumbat"],
       details: {
         description:
@@ -98,7 +98,7 @@ export const productDatabase = {
       id: 7,
       name: "Decolgen",
       price: "Rp 4.000",
-      image: "/decolgen.jpeg",
+      image: "decolgen.jpeg",
       tags: ["demam", "sakit kepala", "hidung tersumbat"],
       details: {
         description:
@@ -113,7 +113,7 @@ export const productDatabase = {
       id: 8,
       name: "Neozep Forte",
       price: "Rp 4.500",
-      image: "/neozep-forte.jpeg",
+      image: "neozep-forte.jpeg",
       tags: ["demam", "sakit kepala", "hidung tersumbat"],
       details: {
         description:
@@ -131,7 +131,7 @@ export const productDatabase = {
       id: 101,
       name: "Redoxon Vitamin C",
       price: "Rp 45.000",
-      image: "/redoxon.jpeg",
+      image: "redoxon.jpeg",
       tags: ["daya tahan tubuh", "antioksidan"],
       details: {
         description:
@@ -147,7 +147,7 @@ export const productDatabase = {
       id: 102,
       name: "Enervon-C",
       price: "Rp 55.000",
-      image: "/enervon-c.jpeg",
+      image: "enervon-c.jpeg",
       tags: ["energi & stamina", "daya tahan tubuh"],
       details: {
         description:
@@ -161,7 +161,7 @@ export const productDatabase = {
       id: 103,
       name: "CDR (Calcium-D-Redoxon)",
       price: "Rp 52.000",
-      image: "/cdr.jpeg",
+      image: "cdr.jpeg",
       tags: ["kesehatan tulang"],
       details: {
         description:
@@ -176,7 +176,7 @@ export const productDatabase = {
       id: 104,
       name: "Blackmores Fish Oil",
       price: "Rp 250.000",
-      image: "/blackmores-fish-oil.jpeg",
+      image: "blackmores-fish-oil.jpeg",
       tags: ["kesehatan jantung & otak"],
       details: {
         description:
@@ -191,7 +191,7 @@ export const productDatabase = {
       id: 105,
       name: "Imboost Force",
       price: "Rp 80.000",
-      image: "/imboost-force.jpeg",
+      image: "imboost-force.jpeg",
       tags: ["daya tahan tubuh"],
       details: {
         description:
@@ -206,7 +206,7 @@ export const productDatabase = {
       id: 106,
       name: "Scott’s Emulsion",
       price: "Rp 50.000",
-      image: "/scotts-emulsion.jpeg",
+      image: "scotts-emulsion.jpeg",
       tags: ["vitamin anak"],
       details: {
         description:
@@ -223,7 +223,7 @@ export const productDatabase = {
       id: 201,
       name: "Hansaplast Plester",
       price: "Rp 7.000",
-      image: "/hansaplast.jpeg",
+      image: "hansaplast.jpeg",
       tags: ["luka gores", "pembalut luka"],
       details: {
         description:
@@ -238,7 +238,7 @@ export const productDatabase = {
       id: 202,
       name: "Betadine Antiseptic",
       price: "Rp 30.000",
-      image: "/betadine.jpeg",
+      image: "betadine.jpeg",
       tags: ["luka gores", "desinfektan"],
       details: {
         description:
@@ -252,7 +252,7 @@ export const productDatabase = {
       id: 203,
       name: "Bioplacenton Salep",
       price: "Rp 28.000",
-      image: "/bioplacenton.jpeg",
+      image: "bioplacenton.jpeg",
       tags: ["luka bakar"],
       details: {
         description:
@@ -266,7 +266,7 @@ export const productDatabase = {
       id: 204,
       name: "Kasa Steril",
       price: "Rp 5.000",
-      image: "/kasa-steril.jpeg",
+      image: "kasa-steril.jpeg",
       tags: ["pembalut luka"],
       details: {
         description:
@@ -280,7 +280,7 @@ export const productDatabase = {
       id: 205,
       name: "Minyak Kayu Putih Cap Lang",
       price: "Rp 25.000",
-      image: "/minyak-kayu-putih.jpeg",
+      image: "minyak-kayu-putih.jpeg",
       tags: ["minyak esensial"],
       details: {
         description:
@@ -296,7 +296,7 @@ export const productDatabase = {
       id: 301,
       name: "Blackmores Pregnancy",
       price: "Rp 350.000",
-      image: "/blackmores-pregnancy.jpeg",
+      image: "blackmores-pregnancy.jpeg",
       tags: ["vitamin ibu hamil"],
       details: {
         description:
@@ -311,7 +311,7 @@ export const productDatabase = {
       id: 302,
       name: "SGM Ananda 0-6 Bulan",
       price: "Rp 80.000",
-      image: "/sgm-ananda.jpeg",
+      image: "sgm-ananda.jpeg",
       tags: ["susu formula"],
       details: {
         description:
@@ -326,7 +326,7 @@ export const productDatabase = {
       id: 303,
       name: "Folavit",
       price: "Rp 15.000",
-      image: "/folavit.jpeg",
+      image: "folavit.jpeg",
       tags: ["vitamin ibu hamil"],
       details: {
         description:
@@ -340,7 +340,7 @@ export const productDatabase = {
       id: 304,
       name: "Zwitsal Baby Bath",
       price: "Rp 35.000",
-      image: "/zwitsal.jpeg",
+      image: "zwitsal.jpeg",
       tags: ["perlengkapan bayi"],
       details: {
         description:
@@ -357,7 +357,7 @@ export const productDatabase = {
       id: 401,
       name: "Cetaphil Gentle Cleanser",
       price: "Rp 150.000",
-      image: "/cetaphil.jpeg",
+      image: "cetaphil.jpeg",
       tags: ["perawatan wajah"],
       details: {
         description:
@@ -372,7 +372,7 @@ export const productDatabase = {
       id: 402,
       name: "Sensodyne Fresh Mint",
       price: "Rp 35.000",
-      image: "/sensodyne.jpeg",
+      image: "sensodyne.jpeg",
       tags: ["kesehatan gigi"],
       details: {
         description:
@@ -386,7 +386,7 @@ export const productDatabase = {
       id: 403,
       name: "Wardah UV Shield Sunscreen",
       price: "Rp 38.000",
-      image: "/wardah-sunscreen.jpeg",
+      image: "wardah-sunscreen.jpeg",
       tags: ["perawatan wajah"],
       details: {
         description:
@@ -402,7 +402,7 @@ export const productDatabase = {
       id: 404,
       name: "Rexona Men Ice Cool",
       price: "Rp 22.000",
-      image: "/rexona-men.jpeg",
+      image: "rexona-men.jpeg",
       tags: ["deodoran"],
       details: {
         description:

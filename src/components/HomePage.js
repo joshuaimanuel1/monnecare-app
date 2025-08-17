@@ -131,7 +131,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="/batuk.png"
+                  src="batuk.png"
                   alt="Batuk & Flu"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -144,7 +144,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="/vitamin.jpeg"
+                  src="vitamin.jpeg"
                   alt="Vitamin"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -157,7 +157,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="/p3k.png"
+                  src="p3k.png"
                   alt="P3K"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -170,7 +170,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="/obat-ibu-anak.png"
+                  src="obat-ibu-anak.png"
                   alt="Ibu & Anak"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -183,7 +183,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="/perawatan-diri.jpg"
+                  src="perawatan-diri.jpg"
                   alt="Perawatan Diri"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
