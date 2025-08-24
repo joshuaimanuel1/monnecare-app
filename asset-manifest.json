@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/monnecare-app/static/css/main.31d6cfe0.css",
-    "main.js": "/monnecare-app/static/js/main.63240045.js",
+    "main.js": "/monnecare-app/static/js/main.1cb3d0ca.js",
     "index.html": "/monnecare-app/index.html",
-    "main.63240045.js.map": "/monnecare-app/static/js/main.63240045.js.map"
+    "main.1cb3d0ca.js.map": "/monnecare-app/static/js/main.1cb3d0ca.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.63240045.js"
+    "static/js/main.1cb3d0ca.js"
   ]
 }
