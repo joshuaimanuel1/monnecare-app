@@ -118,6 +118,3 @@ _Semoga sehat selalu dan belanja obat jadi makin mudah!_
 
 ---
 
-Kalau kamu juga mau README ini dalam versi **Bahasa Inggris**, atau ditambahkan **screenshot aplikasi**, **badge status build**, atau **fitur CI/CD**, tinggal beri tahu!
-```
-````
