@@ -5,7 +5,6 @@ export const ProductDetailPage = ({ product, onBack, addToCart }) => {
   const [activeTab, setActiveTab] = useState("description");
 
   if (!product || !product.details) {
-    // Ditambahkan pengecekan untuk product.details
     return (
       <div className="text-center p-10">
         <p>Detail produk tidak ditemukan. Silakan kembali.</p>
@@ -44,9 +43,17 @@ export const ProductDetailPage = ({ product, onBack, addToCart }) => {
             {/* Kolom Gambar Produk */}
             <div className="flex justify-center items-center p-4">
               <img
-                src={product.image}
+                // PERBAIKAN: Memastikan path gambar selalu benar
+                src={`${process.env.PUBLIC_URL}/${product.image}`}
                 alt={product.name}
                 className="max-w-full h-auto max-h-80 object-contain"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = `https://placehold.co/400x400/e2e8f0/475569?text=${product.name.replace(
+                    /\s/g,
+                    "+"
+                  )}`;
+                }}
               />
             </div>
 
@@ -66,7 +73,7 @@ export const ProductDetailPage = ({ product, onBack, addToCart }) => {
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 24"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"

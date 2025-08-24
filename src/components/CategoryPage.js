@@ -21,6 +21,7 @@ export const CategoryPage = ({
     setFilteredProducts(products);
     setSelectedFilters([]);
   }, [categoryId, products]);
+
   useEffect(() => {
     if (selectedFilters.length === 0) {
       setFilteredProducts(products);
@@ -49,7 +50,7 @@ export const CategoryPage = ({
     >
       <div className="flex-grow">
         <img
-          src={product.image}
+          src={`${process.env.PUBLIC_URL}/${product.image}`} // Diperbaiki
           alt={product.name}
           className="w-full h-40 object-contain rounded-lg mb-4"
           onError={(e) => {

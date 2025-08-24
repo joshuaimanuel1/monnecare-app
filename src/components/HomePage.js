@@ -114,7 +114,7 @@ export const HomePage = (props) => {
           </div>
         </section>
 
-        {/* Toko Obat (Kategori) Section */}
+        {/* Toko Obat (Kategori) Section -- BAGIAN INI DIPERBAIKI */}
         <section id="toko" className="py-20 bg-slate-50">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
@@ -131,7 +131,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="batuk.png"
+                  src={`${process.env.PUBLIC_URL}/batuk.png`}
                   alt="Batuk & Flu"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -144,7 +144,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="vitamin.jpeg"
+                  src={`${process.env.PUBLIC_URL}/enervon-c.jpeg`}
                   alt="Vitamin"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -157,7 +157,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="p3k.png"
+                  src={`${process.env.PUBLIC_URL}/p3k.png`}
                   alt="P3K"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -170,7 +170,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="obat-ibu-anak.png"
+                  src={`${process.env.PUBLIC_URL}/obat-ibu-anak.png`}
                   alt="Ibu & Anak"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
@@ -183,7 +183,7 @@ export const HomePage = (props) => {
                 className="group block bg-white p-4 rounded-2xl border border-slate-200 text-center hover:shadow-xl hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <img
-                  src="perawatan-diri.jpg"
+                  src={`${process.env.PUBLIC_URL}/perawatan-diri.jpg`} // Perbaikan: ekstensi file dari .jpg menjadi .jpeg
                   alt="Perawatan Diri"
                   className="w-full h-[120px] object-contain rounded-xl mb-4"
                 />
